@@ -11,7 +11,7 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
-const Form = () => {
+const FormWithValiedation = () => {
   const {
     register,
     handleSubmit,
@@ -52,4 +52,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default FormWithValiedation;
